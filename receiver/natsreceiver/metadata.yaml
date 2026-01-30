@@ -1,0 +1,16 @@
+type: nats
+
+status:
+  class: receiver
+  stability:
+    development: [traces, metrics, logs]
+  distributions: []
+  codeowners:
+    active: [mikluko]
+
+tests:
+  skip_lifecycle: true
+  goleak:
+    ignore:
+      any:
+        - "github.com/nats-io/nats.go/(*Conn).doReconnect"

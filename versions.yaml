@@ -62,6 +62,7 @@ module-sets:
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logicmonitorexporter
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/mezmoexporter
+      - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/natsexporter
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter
       - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter
@@ -166,6 +167,7 @@ module-sets:
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/configkafka
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/topic
+      - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/nats/confignats
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest
       - github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil
@@ -282,6 +284,7 @@ module-sets:
       - github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbreceiver
       - github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mysqlreceiver
       - github.com/open-telemetry/opentelemetry-collector-contrib/receiver/namedpipereceiver
+      - github.com/open-telemetry/opentelemetry-collector-contrib/receiver/natsreceiver
       - github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nginxreceiver
       - github.com/open-telemetry/opentelemetry-collector-contrib/receiver/netflowreceiver
       - github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nsxtreceiver
